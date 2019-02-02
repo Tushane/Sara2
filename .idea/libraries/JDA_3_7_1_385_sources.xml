@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JDA-3.7.1_385-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Discord API/JDA-3.7.0_382-withDependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/Discord API/JDA-3.7.1_385-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Discord API/JDA-3.7.1_385-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
