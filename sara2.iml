@@ -11,8 +11,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jsoup-1.11.3" level="project" />
-    <orderEntry type="library" name="JDA-3.7.1_385-sources" level="project" />
+    <orderEntry type="library" name="JDA-3.7.0_382-withDependencies" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-rest:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-rest-webmvc:3.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-rest-core:3.1.4.RELEASE" level="project" />
@@ -97,5 +96,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.projectreactor:reactor-test:3.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.8.3" level="project" />
   </component>
 </module>
