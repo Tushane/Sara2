@@ -5,7 +5,6 @@ package com.RTFN3RDSTECH.sara2;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
-import com.RTFN3RDSTECH.ManagerCore.newMemberAssist;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

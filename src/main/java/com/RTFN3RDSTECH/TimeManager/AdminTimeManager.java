@@ -4,11 +4,13 @@
 
 package com.RTFN3RDSTECH.TimeManager;
 
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.Date;
 import java.util.*;
 import java.lang.*;
 
-
+@RestController
 public class AdminTimeManager {
 
 	private static String _time;

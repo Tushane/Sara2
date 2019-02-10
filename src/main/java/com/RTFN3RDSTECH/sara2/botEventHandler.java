@@ -17,7 +17,9 @@ import net.dv8tion.jda.client.*;
 import java.lang.*;
 import java.lang.String;
 import com.RTFN3RDSTECH.AIBackEnd.SearchWeb;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class botEventHandler extends ListenerAdapter {
 
 		private String SenStarter;
@@ -207,9 +209,9 @@ public class botEventHandler extends ListenerAdapter {
 		}else if (_mes.startsWith("Google")) {
 			
 			String keyword = RemovePrefix(_mes);
-			Boolean SearchFound = _sw.LetSearch(keyword);
+			Boolean SearchFound = false; //= _sw.LetSearch(keyword);
 			location.sendTyping();
-			int c = _sw.GetTotalExplicitFound();
+			int c  = 1; //= //_sw.GetTotalExplicitFound();
 			 if(SearchFound == true && c <= 0) {
 				 String[] title = _sw.GetTitle();
 				 String[] url = _sw.GetURL();
